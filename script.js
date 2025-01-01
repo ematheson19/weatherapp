@@ -24,7 +24,7 @@ async function checkWeather(city) {
 
         // Changes the images based on the weather data for each city or country
         if (data.weather[0].main == "Clouds") {
-            weatherIcon.src = "images/clouds.png";
+            weatherIcon.src = "clouds.png";
         }
         else if (data.weather[0].main == "Clear") {
             weatherIcon.src = "clear.png";
